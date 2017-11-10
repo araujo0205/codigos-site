@@ -42,10 +42,10 @@ public class Fibonacci
 	fiboArray[0] = 0;
 	fiboArray[1] = 1;
 
-	/*System.out.println("---------- Versão salvando em um array (F2) -----------");
+	System.out.println("---------- Versão salvando em um array (F2) -----------");
         for (int N = 2; N <= 90; N++)
             System.out.println(N + " " + F2(fiboArray,N));
-*/
+	    
 	System.out.println("---------- Versão somente recursiva (F1) -----------");
 	for (int N = 0; N <= 90; N++)
 	    System.out.println(N + " " + F1(N));
